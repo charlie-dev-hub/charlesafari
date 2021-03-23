@@ -1,0 +1,67 @@
+.site_header .site_header_wrapper .nav_link.active,
+.site_header .site_header_wrapper .nav_link:hover,
+.home_content .subtitle,
+.about .about_wrapper .about_item_content .info_item i,
+.works .works_buttons button:hover,
+.testimonials .slider span,
+.services .service_item span,
+.testimonials .slider .client-info span i,
+.contact .contact_me .contact_item span,
+.home .home_wrapper .home_content .title_passion span.typed-text,
+.heading .title_tag{
+    color: #e71d36;
+}
+.site_header .site_header_wrapper .branding::before,
+.btn,
+.site_subtitle::before,
+.resume .timeline_item .timeline_item_dot,
+.skills .skill_item .progress_in,
+.works .works_buttons button.active,
+.testimonials .slider .client-info h3::before,
+.services .service_item:hover span,
+.about .about_wrapper .about_item_img:hover::before,
+.blogs .blog_item .blog_info small a,
+.blogs .blog_img small,
+.heading .title::after{
+    background-color: #e71d36;
+}
+ 
+
+.site_header .site_header_wrapper .nav_link.active{
+    
+    border-bottom: .1rem solid #e71d36;
+}
+
+.services .service_item span{
+
+    border:.15rem solid #e71d36; 
+}
+
+
+.testimonials .slider-indicator .active{
+    border: .1rem solid #e71d36
+}
+.contact .message_me .form_group input:focus ,
+.contact .message_me .form_group textarea:focus{ 
+    border: .1rem solid #e71d36;  
+}
+.contact .contact_me .contact_item span{
+    border-right: .1rem solid #e71d36;;
+}
+.about .about_wrapper  .about_item_img::before{
+    background-color: rgba(231, 29, 54,.2);
+}
+@-webkit-keyframes blink {
+    0%  { background-color: #e71d36; }
+    49% { background-color: #e71d36; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #e71d36; }
+  }
+@keyframes blink {
+    0%  { background-color: #e71d36; }
+    49% { background-color: #e71d36; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #e71d36; }
+  }

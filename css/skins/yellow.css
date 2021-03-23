@@ -1,0 +1,69 @@
+.site_header .site_header_wrapper .nav_link.active,
+.site_header .site_header_wrapper .nav_link:hover,
+.home_content .subtitle,
+.about .about_wrapper .about_item_content .info_item i,
+.works .works_buttons button:hover,
+.testimonials .slider span,
+.testimonials .slider .client-info span i,
+.home .home_wrapper .home_content .title_passion span.typed-text,
+.services .service_item span,
+.contact .contact_me .contact_item span,
+.heading .title_tag{
+    color: #fec601;
+}
+.site_header .site_header_wrapper .branding::before,
+.btn,
+.site_subtitle::before,
+.resume .timeline_item .timeline_item_dot,
+.skills .skill_item .progress_in,
+.works .works_buttons button.active,
+.testimonials .slider .client-info h3::before,
+.services .service_item:hover span,
+.about .about_wrapper .about_item_img:hover::before,
+.blogs .blog_item .blog_info small a,
+.blogs .blog_img small,
+.heading .title::after{
+    background-color: #fec601;
+}
+ 
+
+.site_header .site_header_wrapper .nav_link.active{
+    
+    border-bottom: .1rem solid #fec601;
+}
+
+.services .service_item span{
+
+    border:.15rem solid #fec601; 
+}
+
+
+.testimonials .slider-indicator .active{
+    border: .1rem solid #fec601
+}
+.contact .message_me .form_group input:focus ,
+.contact .message_me .form_group textarea:focus{ 
+    border: .1rem solid #fec601;  
+}
+.contact .contact_me .contact_item span{
+    border-right: .1rem solid #fec601;;
+}
+
+.about .about_wrapper  .about_item_img::before{
+    background-color: rgba(254, 198, 1,.2);
+}
+
+@-webkit-keyframes blink {
+    0%  { background-color: #fec601; }
+    49% { background-color: #fec601; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #fec601; }
+  }
+@keyframes blink {
+    0%  { background-color: #fec601; }
+    49% { background-color: #fec601; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #fec601; }
+  }

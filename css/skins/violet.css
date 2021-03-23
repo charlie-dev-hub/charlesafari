@@ -1,0 +1,67 @@
+.site_header .site_header_wrapper .nav_link.active,
+.site_header .site_header_wrapper .nav_link:hover,
+.home_content .subtitle,
+.about .about_wrapper .about_item_content .info_item i,
+.works .works_buttons button:hover,
+.testimonials .slider span,
+.testimonials .slider .client-info span i,
+.home .home_wrapper .home_content .title_passion span.typed-text,
+.services .service_item span,
+.contact .contact_me .contact_item span,
+.heading .title_tag{
+    color: #6C4BF4;
+}
+.site_header .site_header_wrapper .branding::before,
+.btn,
+.site_subtitle::before,
+.resume .timeline_item .timeline_item_dot,
+.skills .skill_item .progress_in,
+.works .works_buttons button.active,
+.about .about_wrapper .about_item_img:hover::before,
+.testimonials .slider .client-info h3::before,
+.services .service_item:hover span,
+.blogs .blog_item .blog_info small a,
+.blogs .blog_img small,
+.heading .title::after{
+    background-color: #6C4BF4;
+}
+ 
+.about .about_wrapper  .about_item_img::before{
+    background-color: rgba(108, 75, 244,.2);
+}
+.site_header .site_header_wrapper .nav_link.active{
+    
+    border-bottom: .1rem solid #6C4BF4;
+}
+
+.services .service_item span{
+
+    border:.15rem solid #6C4BF4; 
+}
+
+
+.testimonials .slider-indicator .active{
+    border: .1rem solid #6C4BF4
+}
+.contact .message_me .form_group input:focus ,
+.contact .message_me .form_group textarea:focus{ 
+    border: .1rem solid #6C4BF4;  
+}
+.contact .contact_me .contact_item span{
+    border-right: .1rem solid #6C4BF4;;
+}
+
+@-webkit-keyframes blink {
+    0%  { background-color: #6C4BF4; }
+    49% { background-color: #6C4BF4; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #6C4BF4; }
+  }
+@keyframes blink {
+    0%  { background-color: #6C4BF4; }
+    49% { background-color: #6C4BF4; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #6C4BF4; }
+  }
