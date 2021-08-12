@@ -1,762 +1,1008 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--  Font Awesome  -->
-    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.css" />
     <!--  FavIcon  -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> 
-    <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <!--Color Switcher-->
-    <link rel="stylesheet" href="css/skins/pink.css" class="alternate-style " title="pink" type="text/css" disabled >
-    <link rel="stylesheet" href="css/skins/blue.css" class="alternate-style " title="blue" type="text/css" disabled >
-    <link rel="stylesheet" href="css/skins/orange.css" class="alternate-style " title="orange" type="text/css" disabled >
-    <link rel="stylesheet" href="css/skins/violet.css" class="alternate-style " title="violet" type="text/css" disabled >
-    <link rel="stylesheet" href="css/skins/yellow.css" class="alternate-style " title="yellow" type="text/css" disabled >
-    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css">
+    <link
+      rel="stylesheet"
+      href="css/skins/pink.css"
+      class="alternate-style"
+      title="pink"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/blue.css"
+      class="alternate-style"
+      title="blue"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/orange.css"
+      class="alternate-style"
+      title="orange"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/violet.css"
+      class="alternate-style"
+      title="violet"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="css/skins/yellow.css"
+      class="alternate-style"
+      title="yellow"
+      type="text/css"
+      disabled
+    />
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css" />
     <title>Charles - Personal Portfolio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--Loader-->
     <div class="loader">
-        <div class="lds-ripple"><div></div><div></div></div>
+      <div class="lds-ripple">
+        <div></div>
+        <div></div>
+      </div>
     </div>
     <!--Loader-->
 
     <!--Start Header-->
-    <header class="site_header"> 
-        <div class="container">
-            <div class="site_header_wrapper row flex-between">
-                <div class="branding">
-                    <a href="/" class="logo">Charlie</a>
-                </div>
-        
-                <nav class="main_navigation">
+    <header class="site_header">
+      <div class="container">
+        <div class="site_header_wrapper row flex-between">
+          <div class="branding">
+            <a href="/" class="logo">Charlie</a>
+          </div>
 
-                    <ul class="nav_list row"> 
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link active">
-                                <span class="hidden icon_mobile"><i class="fas fa-house-damage"></i></span>Home
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#about" class="nav_link">
-                                <span class="hidden icon_mobile"><i class="far fa-address-card"></i></span>About
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#resume" class="nav_link">
-                                <span class="hidden icon_mobile"><i class="far fa-address-card"></i></span>resume
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#services" class="nav_link">
-                                <span class="hidden hidden icon_mobile"><i class="fa fa-list"></i></span>services
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#works" class="nav_link">
-                                <span class="hidden icon_mobile"><i class="fa fa-briefcase"></i></span>portfolio
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#blogs" class="nav_link">
-                                <span class="hidden icon_mobile"><i class="fas fa-blog"></i></span>blogs
-                            </a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link">
-                                <span class="hidden icon_mobile"><i class="fas fa-id-card-alt"></i></span>contact
-                            </a>
-                        </li> 
-                    </ul>
-                </nav>
-                <!--Nav Menu-->
-                <div class="nav-menu hidden">
-                    <div class="item item-1"></div>
-                    <div class="item item-2"></div>
-                    <div class="item item-3"></div>
-                </div>
-                <!--Nav Menu-->
-            </div>
+          <nav class="main_navigation">
+            <ul class="nav_list row">
+              <li class="nav_item">
+                <a href="#home" class="nav_link active">
+                  <span class="hidden icon_mobile"
+                    ><i class="fas fa-house-damage"></i></span
+                  >Home
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#about" class="nav_link">
+                  <span class="hidden icon_mobile"
+                    ><i class="far fa-address-card"></i></span
+                  >About
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#resume" class="nav_link">
+                  <span class="hidden icon_mobile"
+                    ><i class="far fa-address-card"></i></span
+                  >resume
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#services" class="nav_link">
+                  <span class="hidden hidden icon_mobile"
+                    ><i class="fa fa-list"></i></span
+                  >services
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#works" class="nav_link">
+                  <span class="hidden icon_mobile"
+                    ><i class="fa fa-briefcase"></i></span
+                  >portfolio
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#blogs" class="nav_link">
+                  <span class="hidden icon_mobile"
+                    ><i class="fas fa-blog"></i></span
+                  >blogs
+                </a>
+              </li>
+              <li class="nav_item">
+                <a href="#contact" class="nav_link">
+                  <span class="hidden icon_mobile"
+                    ><i class="fas fa-id-card-alt"></i></span
+                  >contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!--Nav Menu-->
+          <div class="nav-menu hidden">
+            <div class="item item-1"></div>
+            <div class="item item-2"></div>
+            <div class="item item-3"></div>
+          </div>
+          <!--Nav Menu-->
         </div>
+      </div>
     </header>
-     <!--End Header-->
+    <!--End Header-->
 
-     <!--Start Home-->
+    <!--Start Home-->
     <section class="section home" id="home">
-        <div class="container">
-            <div class="home_wrapper">
-                <div class="home_content">
-                    <h5 class="title">Hello! I'm</h5>
-                    <h1 class="subtitle"> < CHARLIE JNR /> </h1>
-                    <h2 class="title_passion">I Am Passionate 
-                        <span class="typed-text"></span>
-                        <span class="cursor">&nbsp;</span>
-                    </h2>
-                    <div class="home_buttons row">
-                        <a href="#works" class="btn"><span>my work</span></a>
-                        <a href="#contact" class="btn btn-white"><span>Hire Me</span></a> 
-                    </div>
-                    <ul class="socials_links row">
-                       
-                        <li class="social_item">
-                            <a href="https://web.facebook.com/charles.afari" class="social_link"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="social_item">
-                            <a href="https://www.instagram.com/paps_charlie/?hl=en" class="social_link"><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li class="social_item">
-                            <a href="https://www.linkedin.com/in/charles-afari-jnr-86a4a6112/" class="social_link"><i class="fab fa-linkedin"></i></a>
-                        </li>
-                        <li class="social_item"> 
-                            <a href="https://twitter.com/paps_charlie" class="social_link"><i class="fab fa-twitter"></i></a>
-                        </li>
-    
-                    </ul>
-                </div>
-                
+      <div class="container">
+        <div class="home_wrapper">
+          <div class="home_content">
+            <h5 class="title">Hello! I'm</h5>
+            <h1 class="subtitle">Charles Afari Jnr</h1>
+            <h2 class="title_passion">
+              I am Passionate
+              <span class="typed-text"></span>
+              <span class="cursor">&nbsp;</span>
+            </h2>
+            <div class="home_buttons row">
+              <a href="#works" class="btn"><span>my work</span></a>
+              <a href="#contact" class="btn btn-white"><span>Hire Me</span></a>
             </div>
+            <ul class="socials_links row">
+              <li class="social_item">
+                <a
+                  href="https://web.facebook.com/charles.afari"
+                  class="social_link"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="social_item">
+                <a
+                  href="https://www.instagram.com/paps_charlie/?hl=en"
+                  class="social_link"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="social_item">
+                <a
+                  href="https://www.linkedin.com/in/charles-afari-jnr-86a4a6112/"
+                  class="social_link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li class="social_item">
+                <a href="https://twitter.com/paps_charlie" class="social_link"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
     <!--End Home-->
 
     <!--Start About Me-->
     <section class="about section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag">Get to know me</span>
-                    <h1 class="title">About Me</h1>
-                </div>
-            </div>
-
-            <div class="about_wrapper">
-                <div class="row flex-between">
-
-                   <div class="about_item_img">
-                       <img src="images/hero.jpg" alt="about_img" class="about_img">
-                   </div>
-
-                   <div class="about_item_content">
-                       <div class="row">
-                        <h2 class="title">I'm Charles Afari Jnr</h2>
-                        <p class="description"> Hi! My name is Charles Afari Jnr. I am a Marine/Mechanical Engineer, Photographer, Graphic Designer, Writer and Web Developer, and I'm very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.
-                          I enjoy every step of the design process, from discussion and collaboration.</p>
-                       </div>
-                       <div class="row personal_info flex-between">
-                            <p class="info_item"><i class="fas fa-birthday-cake"></i>Birthday : <span>24. 11</span></p>
-                            <!-- <p class="info_item"><i class="fas fa-user"></i>Age  : <span>24 Yr</span></p> -->
-                            <p class="info_item"><i class="far fa-envelope"></i>E-mail : <span>charles_afari2000@yahoo.com</span></p>
-                            <p class="info_item"><i class="fa fa-phone"></i>Phone : <span>+233 54 025 8155</span></p>
-                            <p class="info_item"><i class="fab fa-whatsapp"></i>whatsApp : <span>+233 27 612 5581</span></p>
-                            <p class="info_item"><i class="fas  fa-users-cog "></i>Freelace : <span>Available</span></p>
-                            <p class="info_item"><i class="fas fa-building"></i>City : <span>Sekondi, Ghana</span></p>
-                            <!-- <p class="info_item"><i class="fas fa-object-ungroup"></i>Work Status  : <span>Web Design</span></p> -->
-                            <p class="info_item"><i class="fab fa-firefox"></i>Web site  : <span>www.charlie-portfolio.vercel.app</span></p> 
-                        </div>
-                        <div class="row"> 
-                            <a href="https://drive.google.com/file/d/1kJ4lBz4_uCRubuxYx_xXMfEaonlX1QXX/view?usp=sharing" class="btn"><span>Download CV</span></a> 
-                        </div>
-                   </div>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag">Get to know me</span>
+            <h1 class="title">About Me</h1>
+          </div>
         </div>
+
+        <div class="about_wrapper">
+          <div class="row flex-between">
+            <div class="about_item_img">
+              <img src="images/hero.jpg" alt="about_img" class="about_img" />
+            </div>
+
+            <div class="about_item_content">
+              <div class="row">
+                <h2 class="title">I'm Charles Afari Jnr</h2>
+                <p class="description">
+                  Hi! My name is Charles Afari Jnr. I am a Marine/Mechanical
+                  Engineer, Photographer, Graphic Designer, Writer and Web
+                  Developer, and I'm very passionate and dedicated to my work. I
+                  have acquired the skills and knowledge necessary to make your
+                  project a success. I enjoy every step of the design process,
+                  from discussion and collaboration.
+                </p>
+              </div>
+              <div class="row personal_info flex-between">
+                <p class="info_item">
+                  <i class="fas fa-birthday-cake"></i>Birthday :
+                  <span>24. 11</span>
+                </p>
+                <!-- <p class="info_item"><i class="fas fa-user"></i>Age  : <span>24 Yr</span></p> -->
+                <p class="info_item">
+                  <i class="far fa-envelope"></i>E-mail :
+                  <span>charles_afari2000@yahoo.com</span>
+                </p>
+                <p class="info_item">
+                  <i class="fa fa-phone"></i>Phone :
+                  <span>+233 54 025 8155</span>
+                </p>
+                <p class="info_item">
+                  <i class="fab fa-whatsapp"></i>whatsApp :
+                  <span>+233 27 612 5581</span>
+                </p>
+                <p class="info_item">
+                  <i class="fas fa-users-cog"></i>Freelace :
+                  <span>Available</span>
+                </p>
+                <p class="info_item">
+                  <i class="fas fa-building"></i>City :
+                  <span>Sekondi, Ghana</span>
+                </p>
+                <!-- <p class="info_item"><i class="fas fa-object-ungroup"></i>Work Status  : <span>Web Design</span></p> -->
+                <p class="info_item">
+                  <i class="fab fa-firefox"></i>Web site :
+                  <span>www.charlie-portfolio.vercel.app</span>
+                </p>
+              </div>
+              <div class="row">
+                <a
+                  href="https://drive.google.com/file/d/1kJ4lBz4_uCRubuxYx_xXMfEaonlX1QXX/view?usp=sharing"
+                  class="btn"
+                  ><span>Download CV</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End About Me-->
 
     <!--Start Resume-->
     <section class="resume section" id="resume">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag">Career</span>
-                    <h1 class="title">Resume</h1>
-                </div>
-            </div>
-
-            <div class="row flex-between education_wrapper">
-                <!-- Start Eduction Part-->
-                <div class="education">
-                    <h3 class="site_subtitle">Education</h3>
-                    <div class="row"> 
-                            <div class="timeline">
-                                <div class="timeline_item">
-                                    <div class="timeline_item_dot"></div>
-                                    <h4 class="timeline_item_title">Web Development</h4>
-                                    <div class="timeline_time row">
-                                        <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>Ghana Tech Lab (iCODE-Takoradi).</h6>
-                                        <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> July - Sept, 2020 </h6> -->
-                                    </div>
-                                    <p class="timeline_item_desc">HTML and CSS (Front end), Adobe XD (Ui, Ux), React, Phyton, Business Strategy and Marketing.</p>
-                                </div>
-                                <div class="timeline_item">
-                                    <div class="timeline_item_dot"></div>
-                                    <h4 class="timeline_item_title">Marine Engineering</h4>
-                                    <div class="timeline_time row">
-                                        <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>Regional Maritime University, Accra-Ghana</h6>
-                                        <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2014 - 2016 </h6> -->
-                                    </div>
-                                    <p class="timeline_item_desc">Marine Engineering and <br> Cadetship Basic STCW Convention (2010) Certificate .</p>
-                                </div>
-                                <div class="timeline_item">
-                                    <div class="timeline_item_dot"></div>
-                                    <h4 class="timeline_item_title"> West African Senior School Certificate </h4>
-                                    <div class="timeline_time row">
-                                        <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>Shama Snr. High School - Shama</h6>
-                                        <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2013 - 2016 </h6> -->
-                                    </div>
-                                    <p class="timeline_item_desc">General Science.</p>
-                                </div>
-                            </div> 
-                    </div>
-                </div>
-                <!-- End Eduction Part-->
-
-                <!--Start Experience Part-->
-                <div class="experience">
-                    <h3 class="site_subtitle">Experience</h3>
-                    <div class="row"> 
-                        <div class="timeline">
-                            <div class="timeline_item">
-                                <div class="timeline_item_dot"></div>
-                                <h4 class="timeline_item_title">Trainer Assistant</h4>
-                                <div class="timeline_time row">
-                                    <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>AmaliTech Training Academy - Takoradi.</h6>
-                                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2019 - present </h6> -->
-                                </div>
-                                <p class="timeline_item_desc">Filling of Assessment, Preparing Learning Materials, Website Testing.</p>
-                            </div>
-                            <div class="timeline_item">
-                                <div class="timeline_item_dot"></div>
-                                <h4 class="timeline_item_title">Administrative Assistant and IT Specialist </h4>
-                                <div class="timeline_time row">
-                                    <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>WRHC - Sekondi.</h6>
-                                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2019 - present </h6> -->
-                                </div>
-                                <p class="timeline_item_desc">Installation and Maintenance of Computers, Internet Connection, Receiving and Dispatching of letters, Writing and drafting of Memo.</p>
-                            </div>
-                            <div class="timeline_item">
-                                <div class="timeline_item_dot"></div>
-                                <h4 class="timeline_item_title">Subject Teacher </h4>
-                                <div class="timeline_time row">
-                                    <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>Dr. Wilkie J.H Sch – Takoradi.</h6>
-                                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2016 - 2017 </h6> -->
-                                </div>
-                                <p class="timeline_item_desc">Information and Communication Technology, Mathematics, Marking of exercise, homework and examination.</p>
-                            </div>
-                            <div class="timeline_item">
-                                <div class="timeline_item_dot"></div>
-                                <h4 class="timeline_item_title">Internship (Assistant Tug Engineer)</h4>
-                                <div class="timeline_time row">
-                                    <h6 class="timeline_item_place"><i class="fa fa-map-marker-alt"></i>G P H A.</h6>
-                                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> June, 2015 - August, 2015 </h6> -->
-                                </div>
-                                <p class="timeline_item_desc">Servicing, Maintenance of Floating Crafts, Hauling of crafts onto cradles, Sailing and Berthing of Ships, Engine Room Watch Keeping.</p>
-                            </div>
-                        </div> 
-                </div>
-                </div>
-            </div>
-             <!--End Experience Part-->
-
-            <div class= "skills row flex-between">
-             
-                 <!--Design Skills-->
-                <div class="design_skills">
-                    <h3 class="site_subtitle">Design Skills</h3>
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>web design</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:70%">
-                                    <span class="progress_percent">70%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>logo design</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:92%">
-                                    <span class="progress_percent">92%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>graphic design</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:80%">
-                                    <span class="progress_percent">80%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>photography</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:85%">
-                                    <span class="progress_percent">85%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Design Skills-->
-
-
-
-                <!--Coding Skills-->
-                <div class="coding_skills">
-                    
-                    <h3 class="site_subtitle">Coding Skills</h3>
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>html , css</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:95%">
-                                    <span class="progress_percent">95%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>React</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:50%">
-                                    <span class="progress_percent">50%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>phyton</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:50%">
-                                    <span class="progress_percent">50%</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="skill_item">
-                            <h5>node js</h5>
-                            <div class="progress">
-                                <div class="progress_in" style="width:60%">
-                                    <span class="progress_percent">60%</span>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 <!--Coding Skills-->
-            </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag">Career</span>
+            <h1 class="title">Resume</h1>
+          </div>
         </div>
+
+        <div class="row flex-between education_wrapper">
+          <!-- Start Eduction Part-->
+          <div class="education">
+            <h3 class="site_subtitle">Education</h3>
+            <div class="row">
+              <div class="timeline">
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">Mechanical Engineering</h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>Takoradi Technical
+                      University -Takoradi.
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2020 - 2021 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Bachelor of Technology In Mechanical Engineering (Plant).
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">Web Development</h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>Ghana Tech Lab
+                      (iCODE-Takoradi).
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> July - Sept, 2020 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    HTML and CSS (Front end), Adobe XD (Ui, Ux), React, Phyton,
+                    Business Strategy and Marketing.
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">Marine Engineering</h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>Regional Maritime
+                      University, Accra-Ghana
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2014 - 2016 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Higher Diploma In Marine Engineering and <br />
+                    Cadetship Basic STCW Convention (2010) Certificate .
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">
+                    West African Senior School Certificate
+                  </h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>Shama Snr. High School
+                      - Shama
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2010 - 2013 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">General Science.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Eduction Part-->
+
+          <!--Start Experience Part-->
+          <div class="experience">
+            <h3 class="site_subtitle">Experience</h3>
+            <div class="row">
+              <div class="timeline">
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">Trainer Assistant</h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>AmaliTech Training
+                      Academy - Takoradi.
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2019 - present </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Filling of Assessment, Preparing Learning Materials, Website
+                    Testing.
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">
+                    Administrative Assistant and IT Specialist
+                  </h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>WRHC - Sekondi.
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2019 - present </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Installation and Maintenance of Computers, Internet
+                    Connection, Receiving and Dispatching of letters, Writing
+                    and drafting of Memo.
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">Subject Teacher</h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>Dr. Wilkie J.H Sch –
+                      Takoradi.
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> 2016 - 2017 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Information and Communication Technology, Mathematics,
+                    Marking of exercise, homework and examination.
+                  </p>
+                </div>
+                <div class="timeline_item">
+                  <div class="timeline_item_dot"></div>
+                  <h4 class="timeline_item_title">
+                    Internship (Assistant Tug Engineer)
+                  </h4>
+                  <div class="timeline_time row">
+                    <h6 class="timeline_item_place">
+                      <i class="fa fa-map-marker-alt"></i>G P H A.
+                    </h6>
+                    <!-- <h6 class="timeline_item_date"><i class="fa fa-calendar-alt"></i> June, 2015 - August, 2015 </h6> -->
+                  </div>
+                  <p class="timeline_item_desc">
+                    Servicing, Maintenance of Floating Crafts, Hauling of crafts
+                    onto cradles, Sailing and Berthing of Ships, Engine Room
+                    Watch Keeping.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Experience Part-->
+
+        <div class="skills row flex-between">
+          <!--Design Skills-->
+          <div class="design_skills">
+            <h3 class="site_subtitle">Design Skills</h3>
+            <div class="row">
+              <div class="skill_item">
+                <h5>web design</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 70%">
+                    <span class="progress_percent">70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>logo design</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 92%">
+                    <span class="progress_percent">92%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>graphic design</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 80%">
+                    <span class="progress_percent">80%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>photography</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 85%">
+                    <span class="progress_percent">85%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Design Skills-->
+
+          <!--Coding Skills-->
+          <div class="coding_skills">
+            <h3 class="site_subtitle">Coding Skills</h3>
+            <div class="row">
+              <div class="skill_item">
+                <h5>html , css</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 95%">
+                    <span class="progress_percent">95%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>React</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 50%">
+                    <span class="progress_percent">50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>phyton</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 50%">
+                    <span class="progress_percent">50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="skill_item">
+                <h5>node js</h5>
+                <div class="progress">
+                  <div class="progress_in" style="width: 60%">
+                    <span class="progress_percent">60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Coding Skills-->
+        </div>
+      </div>
     </section>
     <!--End Resume-->
 
     <!--Start Services-->
     <section class="section services" id="services">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag"> What I Do </span>
-                    <h1 class="title">My Services</h1>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag"> What I Do </span>
+            <h1 class="title">My Services</h1>
+          </div>
+        </div>
 
-            <div class="row flex-between">
-                <div class="service_item">
-                    <span>01</span>
-                    <h3>Photography</h3>
-                    <p>For the best Photoshoot and Video Coverage for Weddings, Parties, Per-birthday and Birthday Shoot, Corporate Events.</p>
-                </div>
-                <div class="service_item">
-                    <span>02</span>
-                    <h3>Social Media Mangement</h3>
-                    <p>I will be in charge managing your social media channels as the voice of the brand.</p>
-                </div>
-                <div class="service_item">
-                    <span>03</span>
-                    <h3>Web Development</h3>
-                    <p>For the best in Person responsible for the coding, design and layout of a website according to a company's specifications.</p>
-                </div>
-                <div class="service_item">
-                    <span>04</span>
-                    <h3>Graphic Design</h3>
-                    <p>Creating visual concepts, using computer software, to communicate ideas that inspire, inform, and captivate consumers.</p>
-                </div>
-                <div class="service_item">
-                    <span>05</span>
-                    <h3>Branding</h3>
-                    <p>Finding ways to further enhance the branding of a product or service, as well as develop a marketing plan through analysis of current market data and trends.</p>
-                </div>
-                <!-- <div class="service_item">
+        <div class="row flex-between">
+          <div class="service_item">
+            <span>01</span>
+            <h3>Photography</h3>
+            <p>
+              For the best Photoshoot and Video Coverage for Weddings, Parties,
+              Per-birthday and Birthday Shoot, Corporate Events.
+            </p>
+          </div>
+          <div class="service_item">
+            <span>02</span>
+            <h3>Social Media Mangement</h3>
+            <p>
+              I will be in charge managing your social media channels as the
+              voice of the brand.
+            </p>
+          </div>
+          <div class="service_item">
+            <span>03</span>
+            <h3>Web Development</h3>
+            <p>
+              For the best in Person responsible for the coding, design and
+              layout of a website according to a company's specifications.
+            </p>
+          </div>
+          <div class="service_item">
+            <span>04</span>
+            <h3>Graphic Design</h3>
+            <p>
+              Creating visual concepts, using computer software, to communicate
+              ideas that inspire, inform, and captivate consumers.
+            </p>
+          </div>
+          <div class="service_item">
+            <span>05</span>
+            <h3>Branding</h3>
+            <p>
+              Finding ways to further enhance the branding of a product or
+              service, as well as develop a marketing plan through analysis of
+              current market data and trends.
+            </p>
+          </div>
+          <!-- <div class="service_item">
                     <span>06</span>
                     <h3>Marketing</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora veritatis rerum voluptas laborum.</p>
                 </div> -->
-            </div>
-
         </div>
+      </div>
     </section>
     <!--End Services-->
 
     <!--Start Portfolio-->
     <section class="works section" id="works">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag"> Creative Works </span>
-                    <h1 class="title">My Works</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="works_buttons row">
-                   <button class="work_btn active" data-filter="all" >All</button>
-                    <button class="work_btn"  data-filter="brand">brand</button>
-                    <button class="work_btn"  data-filter="animation">animation</button>
-                    <button class="work_btn"  data-filter="design">Graphic design</button>
-                    <button class="work_btn"  data-filter="photography">photography</button>
-                </div>
-            </div>
-
-            <div class="row works_wrapper">
-                <div class="work_item" data-target="photography">
-                    <div class="work_img">
-                        <img src="images/work1.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>Seychelles<br>Mahe Island</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_item" data-target="brand">
-                    <div class="work_img">
-                        <img src="images/work2.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>Empire<br>Xclusive</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_item" data-target="brand">
-                    <div class="work_img">
-                        <img src="images/work2a.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>afari <br>Quotes</h3>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="work_item" data-target="animation">
-                    <div class="work_img">
-                        <img src="images/work3.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>Art<br>Design</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_item" data-target="design">
-                    <div class="work_img">
-                        <img src="images/work4.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>Web<br>Development</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_item" data-target="photography">
-                    <div class="work_img">
-                        <img src="images/work5.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                            <h3>Web<br>Design</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="work_item" data-target="animation">
-                    <div class="work_img">
-                        <img src="images/work6.jpg" alt="portfolio_img">
-                        <div class="img_title">
-                             
-                            <h3>PSD Template<br>Design</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- start Testemonials-->
-            <div class=" testimonials">
-                <div class="row">
-                    <h3 class="site_subtitle">Testimonials</h3>
-                </div>
-                
-                <div class="slider">
-                    <div class="slide active">
-                        <span><i class="fa fa-quote-right"></i></span>
-                        <p>Charles is one of the best friend decisions I have made on both a personal and professional level.
-                        His ability to help me see problems from multiple angles is nothing short of amazing. He provides fantastic support and encouragement.
-                        He is wise and warm and funny. I cannot recommend Charlie highly enough.</p>
-                       <div class="client-info">
-                           <h3>Eric Woeko</h3>
-                           <span>Co-Founder at Empire Xclusive</span>
-                       </div>
-                    </div>
-                    <div class="slide">
-                        <span><i class="fa fa-quote-right"></i></span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet dicta fugit aperiam dolorum provident.
-                         Adipisci voluptates ipsa, saepe perspiciatis alias fuga nemo mollitia ut deleniti quia laboriosam quam velit!</p>
-                       <div class="client-info">
-                           <h3>Lisa-Marie Koomson</h3>
-                           <span>Colleague</span>
-                       </div>
-                    </div>
-                    <div class="slide">
-                        <span><i class="fa fa-quote-right"></i></span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet dicta fugit aperiam dolorum provident.
-                         Adipisci voluptates ipsa, saepe perspiciatis alias fuga nemo mollitia ut deleniti quia laboriosam quam velit!</p>
-                       <div class="client-info">
-                           <h3>Elijah Amponsah</h3>
-                           <span>Founder at Eliann Ventures</span>
-                       </div>
-                    </div>
-                </div>
-
-                <div class="slider-indicator">
-                    <img src="images/client-01.png" class="active" alt="img" data-id="0" />
-                    <img src="images/client-02.png" alt="img" data-id="1" />
-                    <img src="images/client-03.png" alt="img" data-id="2" />
-                </div>
-
-            </div>
-            <!--End Testemonials-->
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag"> Creative Works </span>
+            <h1 class="title">My Works</h1>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="works_buttons row">
+            <button class="work_btn active" data-filter="all">All</button>
+            <button class="work_btn" data-filter="brand">brand</button>
+            <button class="work_btn" data-filter="animation">animation</button>
+            <button class="work_btn" data-filter="design">
+              Graphic design
+            </button>
+            <button class="work_btn" data-filter="photography">
+              photography
+            </button>
+          </div>
+        </div>
+
+        <div class="row works_wrapper">
+          <div class="work_item" data-target="photography">
+            <div class="work_img">
+              <img src="images/work1.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>Seychelles<br />Mahe Island</h3>
+              </div>
+            </div>
+          </div>
+          <div class="work_item" data-target="brand">
+            <div class="work_img">
+              <img src="images/work2.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>Empire<br />Xclusive</h3>
+              </div>
+            </div>
+          </div>
+          <div class="work_item" data-target="brand">
+            <div class="work_img">
+              <img src="images/work2a.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>afari <br />Quotes</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="work_item" data-target="animation">
+            <div class="work_img">
+              <img src="images/work3.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>Art<br />Design</h3>
+              </div>
+            </div>
+          </div>
+          <div class="work_item" data-target="design">
+            <div class="work_img">
+              <img src="images/work4.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>Web<br />Development</h3>
+              </div>
+            </div>
+          </div>
+          <div class="work_item" data-target="photography">
+            <div class="work_img">
+              <img src="images/work5.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>Web<br />Design</h3>
+              </div>
+            </div>
+          </div>
+          <div class="work_item" data-target="animation">
+            <div class="work_img">
+              <img src="images/work6.jpg" alt="portfolio_img" />
+              <div class="img_title">
+                <h3>PSD Template<br />Design</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- start Testemonials-->
+        <div class="testimonials">
+          <div class="row">
+            <h3 class="site_subtitle">Testimonials</h3>
+          </div>
+
+          <div class="slider">
+            <div class="slide active">
+              <span><i class="fa fa-quote-right"></i></span>
+              <p>
+                Charles is one of the best friend decisions I have made on both
+                a personal and professional level. His ability to help me see
+                problems from multiple angles is nothing short of amazing. He
+                provides fantastic support and encouragement. He is wise and
+                warm and funny. I cannot recommend Charlie highly enough.
+              </p>
+              <div class="client-info">
+                <h3>Eric Woeko</h3>
+                <span>Co-Founder at Empire Xclusive</span>
+              </div>
+            </div>
+            <div class="slide">
+              <span><i class="fa fa-quote-right"></i></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                eveniet dicta fugit aperiam dolorum provident. Adipisci
+                voluptates ipsa, saepe perspiciatis alias fuga nemo mollitia ut
+                deleniti quia laboriosam quam velit!
+              </p>
+              <div class="client-info">
+                <h3>Lisa-Marie Koomson</h3>
+                <span>Colleague</span>
+              </div>
+            </div>
+            <div class="slide">
+              <span><i class="fa fa-quote-right"></i></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                eveniet dicta fugit aperiam dolorum provident. Adipisci
+                voluptates ipsa, saepe perspiciatis alias fuga nemo mollitia ut
+                deleniti quia laboriosam quam velit!
+              </p>
+              <div class="client-info">
+                <h3>Elijah Amponsah</h3>
+                <span>Founder at Eliann Ventures</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-indicator">
+            <img
+              src="images/client-01.png"
+              class="active"
+              alt="img"
+              data-id="0"
+            />
+            <img src="images/client-02.png" alt="img" data-id="1" />
+            <img src="images/client-03.png" alt="img" data-id="2" />
+          </div>
+        </div>
+        <!--End Testemonials-->
+      </div>
     </section>
     <!--End Portfolio-->
 
-
     <!--blogs-->
     <section class="section blogs" id="blogs">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag"> Latest News </span>
-                    <h1 class="title"> Latest Blogs </h1>
-                </div>
-            </div>
-
-            <div class="row blog_wrapper flex-between">
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <img src="images/blog1.jpg" alt="blog_img">
-                        <small>14 August , 2019</small>
-                    </div>
-                    <div class="blog_info"> 
-                        <h3><a href="#">afariQuotes</a></h3>
-                        <p>Need a Motivational Quote? You are on the right page. We use Motivational quote to help you think thoughts you've never thought...</p>
-                        <small>Tags : <a href="https://facebook.com/afariquotes">Facebook</a>  <a href="https://instagram.com/afariquotes">Instagram</a></small>
-                    </div>
-                </div>
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <img src="images/blog2.jpg" alt="blog_img">
-                        <small>23 September , 2020</small>
-                    </div>
-                    <div class="blog_info"> 
-                        <h3><a href="blog2.html">How to Find Your Life Purpose in 4 Easy Steps</a></h3>
-                        <p>You like your job, but it doesn’t excite you anymore. You’re entering the job market but aren’t...</p>
-                        <small>Tags : <a href="https://jessicadw.com/">Jessicadw</a></small>
-                    </div>
-                </div>
-                <div class="blog_item">
-                    <div class="blog_img">
-                        <img src="images/blog3.jpg" alt="blog_img">
-                        <small>Update</small>
-                    </div>
-                    <div class="blog_info"> 
-                       
-                        <h3><a href="#">Latest Blog News 180*</a></h3>
-                        <p>Update Latest in the world of entertainment news, social media Trends and the world of sports...</p>
-                        <small>Tags : <a href="https://www.thesun.co.uk/sport/">World sports</a>  <a href="https://www.ghgossip.com/">Entertainment</a></small>
-                    </div>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag"> Latest News </span>
+            <h1 class="title">Latest Blogs</h1>
+          </div>
         </div>
+
+        <div class="row blog_wrapper flex-between">
+          <div class="blog_item">
+            <div class="blog_img">
+              <img src="images/blog1.jpg" alt="blog_img" />
+              <small>14 August , 2019</small>
+            </div>
+            <div class="blog_info">
+              <h3><a href="#">afariQuotes</a></h3>
+              <p>
+                Need a Motivational Quote? You are on the right page. We use
+                Motivational quote to help you think thoughts you've never
+                thought...
+              </p>
+              <small
+                >Tags : <a href="https://facebook.com/afariquotes">Facebook</a>
+                <a href="https://instagram.com/afariquotes">Instagram</a></small
+              >
+            </div>
+          </div>
+          <div class="blog_item">
+            <div class="blog_img">
+              <img src="images/blog2.jpg" alt="blog_img" />
+              <small>23 September , 2020</small>
+            </div>
+            <div class="blog_info">
+              <h3>
+                <a href="blog2.html"
+                  >How to Find Your Life Purpose in 4 Easy Steps</a
+                >
+              </h3>
+              <p>
+                You like your job, but it doesn’t excite you anymore. You’re
+                entering the job market but aren’t...
+              </p>
+              <small
+                >Tags : <a href="https://jessicadw.com/">Jessicadw</a></small
+              >
+            </div>
+          </div>
+          <div class="blog_item">
+            <div class="blog_img">
+              <img src="images/blog3.jpg" alt="blog_img" />
+              <small>Update</small>
+            </div>
+            <div class="blog_info">
+              <h3><a href="#">Latest Blog News 180*</a></h3>
+              <p>
+                Update Latest in the world of entertainment news, social media
+                Trends and the world of sports...
+              </p>
+              <small
+                >Tags :
+                <a href="https://www.thesun.co.uk/sport/">World sports</a>
+                <a href="https://www.ghgossip.com/">Entertainment</a></small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--blogs-->
 
-
     <!--contact me-->
     <section class="section contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <span class="title_tag">Feel Free To Contact Me  </span>
-                    <h1 class="title"> Contact Me </h1>
-                </div>
-            </div>
-
-            <div class="row contact_wrapper">
-                <div class="message_me">
-                    <h3 class="site_subtitle">Message Me</h3>
-                    <form>
-                        <div class="row flex-between">
-                            <div class="form_group col-6">
-                                <input type="text" placeholder="Name" id="name">
-                            </div>
-                            <div class="form_group col-6">
-                                <input type="email" placeholder="Email" id="email">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form_group col-12">
-                                <input type="text" placeholder="Subject" id="subject">
-                            </div> 
-                        </div>
-                        <div class="row">
-                            <div class="form_group col-12">
-                                <textarea name="message" placeholder="Message" id="description" cols="30" rows="10"></textarea>
-                            </div> 
-                        </div>
-                        <div class="row">
-                            <button type="submit" class="btn"><span><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send Message</span></button>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="contact_me">
-                    <h3 class="site_subtitle">Contact Me</h3>
-                    <div class="row">
-                        <h1 class="contact_me_title">Let's talk about everything!</h1>
-                        <p class="text_me">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-                    </div>
-                    <div class="row">
-                        <div class="contact_item">
-                            <span><i class="far fa-user"></i></span>
-                            <div class="contact_item_info">
-                                <h3>name</h3>
-                                <h4>Charles Afri Jnr</h4>
-                            </div>
-                        </div>
-                        <div class="contact_item">
-                            <span><i class="far fa-envelope"></i></span>
-                            <div class="contact_item_info">
-                                <h3>Email</h3>
-                                <h4>charles_afari2000@yahoo.com</h4>
-                            </div>
-                        </div>
-                        <div class="contact_item">
-                            <span><i class="fas fa-mobile-alt"></i></span>
-                            <div class="contact_item_info">
-                                <h3>phone</h3>
-                                <h4>+233 54 025 8155 / +233 27 612 5581</h4>
-                            </div>
-                        </div>
-                        
-                        <div class="contact_item">
-                            <span><i class="fas fa-map-marked-alt"></i></span>
-                            <div class="contact_item_info">
-                                <h3>address</h3>
-                                <h4>1B/20 Maxwell Road, Sekondi-Ghana</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <span class="title_tag">Feel Free To Contact Me </span>
+            <h1 class="title">Contact Me</h1>
+          </div>
         </div>
+
+        <div class="row contact_wrapper">
+          <div class="message_me">
+            <h3 class="site_subtitle">Message Me</h3>
+            <form>
+              <div class="row flex-between">
+                <div class="form_group col-6">
+                  <input type="text" placeholder="Name" id="name" />
+                </div>
+                <div class="form_group col-6">
+                  <input type="email" placeholder="Email" id="email" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="form_group col-12">
+                  <input type="text" placeholder="Subject" id="subject" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="form_group col-12">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    id="description"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <button type="submit" class="btn">
+                  <span
+                    ><i class="fas fa-paper-plane"></i>&nbsp;&nbsp;Send
+                    Message</span
+                  >
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact_me">
+            <h3 class="site_subtitle">Contact Me</h3>
+            <div class="row">
+              <h1 class="contact_me_title">Let's talk about everything!</h1>
+              <p class="text_me">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore. Lorem
+                ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum
+                dolor sit amet, consectetuer adipiscing elit
+              </p>
+            </div>
+            <div class="row">
+              <div class="contact_item">
+                <span><i class="far fa-user"></i></span>
+                <div class="contact_item_info">
+                  <h3>name</h3>
+                  <h4>Charles Afri Jnr</h4>
+                </div>
+              </div>
+              <div class="contact_item">
+                <span><i class="far fa-envelope"></i></span>
+                <div class="contact_item_info">
+                  <h3>Email</h3>
+                  <h4>charles_afari2000@yahoo.com</h4>
+                </div>
+              </div>
+              <div class="contact_item">
+                <span><i class="fas fa-mobile-alt"></i></span>
+                <div class="contact_item_info">
+                  <h3>phone</h3>
+                  <h4>+233 54 025 8155 / +233 27 612 5581</h4>
+                </div>
+              </div>
+
+              <div class="contact_item">
+                <span><i class="fas fa-map-marked-alt"></i></span>
+                <div class="contact_item_info">
+                  <h3>address</h3>
+                  <h4>1B/20 Maxwell Road, Sekondi-Ghana</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--contact me-->
 
     <!--footer-->
-    <footer class="footer ">
-        <div class="container">
-            <div class="row flex-between ">
-                <ul class="socials_links row">
-                    <li class="social_item">
-                        <a href="" class="social_link"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="social_item">
-                        <a href="" class="social_link"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="social_item">
-                        <a href="" class="social_link"><i class="fab fa-linkedin"></i></a>
-                    </li>
-                    
-                    <li class="social_item"> 
-                        <a href="" class="social_link"><i class="fab fa-twitter"></i></a>
-                    </li>
-                   
-                </ul>
+    <footer class="footer">
+      <div class="container">
+        <div class="row flex-between">
+          <ul class="socials_links row">
+            <li class="social_item">
+              <a href="" class="social_link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="social_item">
+              <a href="" class="social_link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="social_item">
+              <a href="" class="social_link"><i class="fab fa-linkedin"></i></a>
+            </li>
 
-                <p>&copy;2020 copyright all right reserved(Empire Xclusive)</p>
-            </div>
+            <li class="social_item">
+              <a href="" class="social_link"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+
+          <p>&copy;2020 copyright all right reserved(Empire Xclusive)</p>
         </div>
+      </div>
     </footer>
-     <!--footer--> 
-
+    <!--footer-->
 
     <!--lightBox-->
     <div class="lightbox">
-        <div class="lightbox_item">
-            <div class="lightbox_img">
-                <img src="images/work2.jpg" alt="lightbox-img">
-                <span class="close_btn">&times;</span>
-            </div>
-           
-            <span class="num_work">1/2</span>
+      <div class="lightbox_item">
+        <div class="lightbox_img">
+          <img src="images/work2.jpg" alt="lightbox-img" />
+          <span class="close_btn">&times;</span>
         </div>
-        <div class="lightbox_controls">
-            <button class="ctr_btn prev"  ><i class="fa fa-caret-left"></i></button>
-            <button class="ctr_btn next"  ><i class="fa fa-caret-right"></i></button>
-        </div>
+
+        <span class="num_work">1/2</span>
+      </div>
+      <div class="lightbox_controls">
+        <button class="ctr_btn prev"><i class="fa fa-caret-left"></i></button>
+        <button class="ctr_btn next"><i class="fa fa-caret-right"></i></button>
+      </div>
     </div>
     <!--LightBox-->
-
 
     <!--Live Switcher-->
 
     <div class="style-switcher toggler">
-        <div class="toggle-style-switcher">
-        <i class="fa fa-cog fa-spin"></i>  
-        </div>
-        <h5>Style Switcher</h5>
-        <ul>
-        <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;" onclick="selectStyle('pink')"></a></li>
-        <li><a href="javascript:void(0);" title="blue" style="background-color: #2196f3;" onclick="selectStyle('blue')"></a></li>
-        <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="selectStyle('yellow')"></a></li>
-        <li><a href="javascript:void(0);"  title="orange" style="background-color: #F97A2B;" onclick="selectStyle('orange')"></a></li>
-        <li><a href="javascript:void(0);" title="green" style="background-color: #6C4BF4;" onclick="selectStyle('violet')"></a></li>
-        </ul>   
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="pink"
+            style="background-color: #ec1839"
+            onclick="selectStyle('pink')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="blue"
+            style="background-color: #2196f3"
+            onclick="selectStyle('blue')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="yellow"
+            style="background-color: #ffb400"
+            onclick="selectStyle('yellow')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="orange"
+            style="background-color: #f97a2b"
+            onclick="selectStyle('orange')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="green"
+            style="background-color: #6c4bf4"
+            onclick="selectStyle('violet')"
+          ></a>
+        </li>
+      </ul>
     </div>
     <!--Live Switcher-->
 
-    <!--Single Blog-->  
+    <!-- Single Blog -->
     <!-- <section class="single_blog hidden">
         <a href="" class="close_btn"><i class="fa fa-times"></i></a>
         <div class="container">
@@ -805,10 +1051,7 @@
     </section> -->
     <!--Single Blog-->
 
-
-
     <script src="js/styleSwitcher.js"></script>
     <script src="js/main.js"></script>
-    
-</body>
+  </body>
 </html>
